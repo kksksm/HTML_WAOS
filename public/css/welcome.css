@@ -1,0 +1,41 @@
+body{
+  background-image: url(assets/welcome.jpg);
+  background-repeat: no-repeat;
+  position: fixed;
+  background-attachment: fixed;
+  background-size: contain;
+  background-position: center;
+  position: fixed;
+  margin: 0;
+  font-family: serif;
+  height: 100vh;
+}
+
+.formulario{
+position: relative;
+right: -770px;
+top: -50px;
+transform:translate(-50%, 50%);
+width: 400px;
+height: 150px;
+border-radius: 10px;
+background-image: url(assets/iconos/caiman_mask.ico);
+background-repeat: no-repeat;
+background-position:right;
+background-size: contain;
+}
+
+.entrada{
+border-bottom:2px;
+margin: 20px 0;
+border:solid;
+background: none;
+}
+
+.boton{
+  border: solid;
+  font-family: serif;
+  position: relative;
+  right: -150px;
+  top: -10px;
+}

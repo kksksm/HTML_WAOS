@@ -1,0 +1,200 @@
+#titulo{
+  display: flex;
+  justify-content: center;
+  box-sizing: content-box;
+  box-sizing: border-box;
+  padding: 10px;
+  border: 3px solid black;
+  border-radius: 10px;
+  margin-left: 5px;
+  margin-right: 5px;
+  font-family: sans-serif;
+  color: white;
+  background: #393833;
+  box-shadow: 5px 5px 5px black;
+}
+
+.fotos_de_pistas1{
+  display: grid;
+  width: 250px;
+  height: 150px;
+  border-radius: 10px;
+  margin-right: 10px;
+  margin-left: 10px;
+  margin-top: 5px;
+  border: 3px solid black;
+  filter: saturate(0.5);
+}
+
+.pista0{
+  display: grid;
+  border-radius: 10px;
+  margin-left: 5px;
+  grid-template-columns: 280px 150px 600px 280px;
+  grid-template-rows: 1fr;
+  column-gap: 5px;
+  margin-top: 5px;
+  grid-auto-rows: auto;
+  grid-auto-columns: auto;
+}
+
+.pista0_5{
+display: grid;
+text-align: center;
+grid-auto-flow: column;
+grid-auto-flow: row;
+background-color: none;
+color: white;
+row-gap: 1px;
+}
+
+.pista1{
+  display: grid;
+  border: 3px solid black;
+  border-radius: 10px;
+  background-color: #393833;
+  box-shadow: 5px 5px 5px black;
+}
+
+.pista3{
+  display: grid;
+  border: 3px solid black;
+  border-radius: 10px;
+  background-color: #4a1400;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  box-shadow: 5px 5px 5px black;
+  font-size: 16px;
+  text-indent: 25px;
+  height: 380px;
+  row-gap: 50px;
+}
+
+#titulo_pista1{
+  display:grid;
+  position: relative;
+  right: -20px;
+  top: 5px;
+  font-family: sans-serif;
+}
+
+.texto_sobre_soundtrack{
+  display: grid;
+  font-family: sans-serif;
+  text-align: center;
+  color: white;
+  background-color: none;
+}
+
+.playBtn{
+  display:grid;
+  background: none;
+  margin-right: 50px;
+  margin-left: 50px;
+  border-radius: 10px;
+  border: 2px solid #393833;
+  background-color: black;
+  color: white;
+}
+
+.pauseBtn {
+  display: grid;
+  background: none;
+  margin-right: 50px;
+  margin-left: 50px;
+  border-radius: 10px;
+  border: 2px solid #393833;
+  background-color:black;
+  color: white;
+}
+
+.imagenes_indice:hover{
+  -webkit-transform:scale(1.2);
+transform:scale(1.2);
+overflow: hidden;
+transition:all .5s ease-in-out;
+}
+
+#kai_indice_id{
+  display: grid;
+  width:130px;
+  border-radius: 10px;
+  margin: 10px;
+  box-shadow: 5px 5px 5px black;
+}
+
+#noi_indice_id{
+  display: grid;
+  width: 130px;
+  border-radius: 10px;
+  margin: 10px;
+  box-shadow: 5px 5px 5px black; 
+}
+
+#en_indice_id{
+  display: grid;
+  width: 130px;
+  border-radius: 10px;
+  margin: 10px;
+  box-shadow: 5px 5px 5px black
+}
+
+#kaiman_indice_id{
+  display: grid;
+  width: 130px;
+  height: 130px;
+  border-radius: 10px;
+  margin: 10px;
+  box-shadow: 5px 5px 5px black;
+}
+
+
+.titulo_de_texto{
+  text-align: center;
+}
+
+.pista4{
+  border: 3px solid black;
+  border-radius: 10px;
+  color: white;
+  background-color: #49041a;
+  font-size: 16px;
+  text-align: center;
+  align-items: center;
+  font-family: Arial, Helvetica, sans-serif;
+  box-shadow: 5px 5px 5px black;
+  word-wrap: break-word;
+}
+
+
+.pista4:hover{
+  filter: drop-shadow(0 0 0.75rem crimson);
+  -webkit-transform:scale(1);
+  transform:scale(1);
+  transition:all .5s ease-in-out;
+
+}
+
+#anuncio{
+  display: grid;
+  border-radius: 10px;
+  background-color: black;
+  margin: 2px;
+}
+
+.texto_tv{
+  border: 1px solid white;
+  color: white;
+  border-radius: 10px;
+  margin:2px
+}
+
+#capitulos{
+  display: grid;
+  width: 250px;
+  height: 120px;
+  border-radius: 10px;
+  border: 3px solid black;
+  margin-left: 10px;
+  margin-right: 10px;
+  }
